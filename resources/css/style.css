@@ -1,4 +1,6 @@
-/* ----------------------- header ----------------------- */
+body{
+  margin: 0px;
+}
 div {
   display: block;
 }
@@ -40,14 +42,14 @@ a {
   color: black;
   padding: 0px 10px;
 }
-/* ----------------------- main content ----------------------- */
+
 .content {
   display: flex;
   width: 1232px;
   margin: 0 auto 70px auto;
   padding-top: 116px;
 }
-/* ----- first news column ------*/
+
 .column.large {
   width: 630px;
   display: flex;
@@ -145,8 +147,6 @@ h2 {
   border-bottom: 1px solid black;
 }
 
-
-/* ----------------------- footer ----------------------- */
 footer {
   display: flex;
   align-items: center;
@@ -167,6 +167,7 @@ footer nav {
 
 .info {
   display: inline-flex;
+  margin-bottom: 0px;
 }
 
 footer .title {
